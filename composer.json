@@ -16,5 +16,6 @@
 			"Barcode\\" : "src/Barcode"
 		}
 
-	}
+	},
+    "minimum-stability": "stable"
 }
