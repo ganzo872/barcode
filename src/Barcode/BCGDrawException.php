@@ -2,13 +2,13 @@
 /**
  *--------------------------------------------------------------------
  *
- * Draw Exception
+ * Draw \Exception
  *
  *--------------------------------------------------------------------
  * Copyright (C) Jean-Sebastien Goupil
  * http://www.barcodephp.com
  */
-class BCGDrawException extends Exception {
+class BCGDrawException extends \Exception {
     /**
      * Constructor with specific message.
      *

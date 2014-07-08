@@ -2,13 +2,13 @@
 /**
  *--------------------------------------------------------------------
  *
- * Argument Exception
+ * Argument \Exception
  *
  *--------------------------------------------------------------------
  * Copyright (C) Jean-Sebastien Goupil
  * http://www.barcodephp.com
  */
-class BCGArgumentException extends Exception {
+class BCGArgumentException extends \Exception {
     protected $param;
 
     /**

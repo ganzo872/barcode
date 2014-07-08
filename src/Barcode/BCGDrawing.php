@@ -195,7 +195,7 @@ class BCGDrawing {
     /**
      * Writes the Error on the picture.
      *
-     * @param Exception $exception
+     * @param \Exception $exception
      */
     public function drawException($exception) {
         $this->w = 1;

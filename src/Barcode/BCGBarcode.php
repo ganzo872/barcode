@@ -110,7 +110,7 @@ abstract class BCGBarcode {
 
     /**
      * Sets the scale of the barcode in pixel.
-     * If the scale is lower than 1, an exception is raised.
+     * If the scale is lower than 1, an \Exception is raised.
      *
      * @param int $scale
      */

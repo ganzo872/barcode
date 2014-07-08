@@ -267,7 +267,7 @@ class BCGcode128 extends BCGBarcode1D {
             $seq = $this->getSequence($text, $currentMode);
             $this->text = $text;
         } else {
-            // This loop checks for UnknownText AND raises an exception if a character is not allowed in a table
+            // This loop checks for UnknownText AND raises an \Exception if a character is not allowed in a table
             reset($text);
             while (list($key1, $val1) = each($text)) {     // We take each value
                 if (!is_array($val1)) {                    // This is not a table

@@ -2,13 +2,13 @@
 /**
  *--------------------------------------------------------------------
  *
- * Parse Exception
+ * Parse \Exception
  *
  *--------------------------------------------------------------------
  * Copyright (C) Jean-Sebastien Goupil
  * http://www.barcodephp.com
  */
-class BCGParseException extends Exception {
+class BCGParseException extends \Exception {
     protected $barcode;
 
     /**
